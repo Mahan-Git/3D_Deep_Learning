@@ -22,6 +22,8 @@ current_folder = Path.cwd()
 
 DATA_DIR = os.path.join((current_folder), "ModelNet40")
 
+# test
+
 print (DATA_DIR)
 
 def parse_dataset(num_points,DATA_DIR):
